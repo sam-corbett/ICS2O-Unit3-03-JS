@@ -1,7 +1,7 @@
 {
   "name": "Sam Corbett's App",
   "short_name": "Sam's App",
-  "description": "Github Page for Sam's App",
+  "description": "Calculator For The Volume Of A Sphere",
   "scope": "/ICS2O-PWA-Test/",
   "start_url": "/ICS2O-PWA-Test/",
   "background_color": "#ffffff",
