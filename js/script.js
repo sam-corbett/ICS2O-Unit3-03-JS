@@ -16,8 +16,17 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
+ * This function displays the Volume Of The Sphere.
  */
 function calculateVOLUME() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  //input
+  const radius = parseFloat(document.getElementById("radius-of-sphere").value)
+
+  //process
+  const volume = (4 / 3) * Math.PI * radius ** 3
+
+  //output
+  document.getElementById("volume").innerHTML =
+    "The Volume For Your Sphere Is Approx: " + volume.toFixed(2) + "cm³"
+
 }

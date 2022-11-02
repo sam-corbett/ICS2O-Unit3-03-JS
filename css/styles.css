@@ -22,11 +22,19 @@
 }
 
 body {
-  background-color: rgb(154 211 232);
+  background-color: teal;
+}
+
+h6 {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 15pt;
 }
 
 p {
-  color: black;
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
